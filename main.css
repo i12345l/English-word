@@ -6,6 +6,23 @@
     height: 100%;
 }
 
+#tb{
+  position:absolute;
+  top:40%;
+}
+
+legend{
+  text-align: center;
+  font-size: 1.4em;
+}
+fieldset{
+  background-color: aliceblue;
+}
+#title{
+  border: 1px solid black;
+  border-color: black; 
+}
+
 .index_b{
     background:#1AAB8A;
     color:#fff;
@@ -19,6 +36,8 @@
     outline:none;
     margin-right: 5px;
     margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .index_b:hover{
     background:#fff;
