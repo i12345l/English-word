@@ -25,7 +25,7 @@ fieldset{
 
 .index_b{
     background:#1AAB8A;
-    color:#fff;
+    color:aliceblue;
     border:none;
     position:relative;
     height:60px;
@@ -40,7 +40,7 @@ fieldset{
     margin-bottom: 10px;
   }
   .index_b:hover{
-    background:#fff;
+    background:aliceblue;
     color:#1AAB8A;
   }
   .index_b:before,.index_b:after{
