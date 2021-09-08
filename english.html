@@ -9,15 +9,11 @@
 </head>
 <body>
     <div id="question"><p id="q_1">question</p><input id = "next" type = "button" onclick = "pass();" value="next"/></div>
-    <table id="answer">
-        <tr>
-            <td><input type ="radio" class="a_button" onclick="button_click(1);" name="sel"><label id="a_1">a_1</label></td>
-            <td><input type ="radio" class="a_button" onclick="button_click(2);" name="sel"><label id="a_2">a_2</label></td>
-        </tr>
-        <tr>
-            <td><input type ="radio" class="a_button" onclick="button_click(3);" name="sel"><label id="a_3">a_3</label></td>
-            <td><input type ="radio" class="a_button" onclick="button_click(4);" name="sel"><label id="a_4">a_4</label></td>
-        </tr>
-    </table>
+    <div class="select">
+        <input type="radio" id="select1" name="shop" onclick="button_click(1);"><label for="select1" id="a_1">a_1</label>
+        <input type="radio" id="select2" name="shop" onclick="button_click(2);"><label for="select2" id="a_2">a_2</label>
+        <input type="radio" id="select3" name="shop" onclick="button_click(3);"><label for="select3" id="a_3">a_3</label>
+        <input type="radio" id="select4" name="shop" onclick="button_click(4);"><label for="select4" id="a_4">a_4</label>
+   </div>
 </body>
 </html>
