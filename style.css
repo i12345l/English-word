@@ -1,5 +1,8 @@
 #all{
-    width:100vw;
+    border:1px solid black;
+    display: inline-block;
+    position: relative;
+    margin-left:50%; margin-top:50%; transform: translateX(-50%); transform: translateY(-50%);
 }
 
 #question{
