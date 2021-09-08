@@ -1,5 +1,14 @@
+#all{
+    width:100vw;
+}
+
+#question{
+    display: inline-block;
+    position: static;
+}
 .select {
     padding: 15px 10px;
+    width: 100%;
 }
 .select input[type=radio]{
     display: none;
@@ -22,4 +31,8 @@
 .select input[type=radio]:checked+label{
     background-color: #333;
     color: #fff;
+}
+.select label{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
