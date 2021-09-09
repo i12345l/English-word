@@ -6,8 +6,13 @@
 }
 
 #question{
-    display: inline-block;
     position: static;
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+#question input[type=button]{
+    height: 30px;
 }
 .select {
     padding: 15px 10px;
