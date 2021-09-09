@@ -8,11 +8,16 @@ function button_click(a){
 
 function pass(){
     if(now!=0){
+        var sel = document.getElementsByName("shop");
+        for(var i=0;i<sel.length;i++){
+            sel[i].checked=false;
+        }
         document.getElementById("a_1").innerHTML=word[order][0];
         document.getElementById("a_2").innerHTML=word[order][1];
         document.getElementById("a_3").innerHTML=word[order][2];
         document.getElementById("a_4").innerHTML=word[order][3];
         document.getElementById("q").innerHTML=word[order][4];
+
         order++;
         now=0;
     }else{
