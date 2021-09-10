@@ -1,15 +1,18 @@
 body{
   background-color:azure;
+  margin:0;
 }
 #all{
   height: 100vh;
   display: grid;
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
 
 #start_buttons{
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;
 }
