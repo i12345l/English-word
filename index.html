@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <title>시작 화면</title>
-    <main charset = "utf-8"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script lang="javascript" src="index.js"></script>
     <link rel="stylesheet" href="index.css" type="text/css">
+    <title>영단어 공부</title>
 </head>
 <body>
-    <div id="start">
-        <fieldset id="tb">
-            <legend><fieldset id="title">영어 단어 공부</fieldset></legend>
-            <input type="button" class="index_b" onclick="location.href='english.html'" value="시작하기"/>
-            <input type="button" class="index_b" onclick="record();" value="기록보기"/>
-        </fieldset>
+    <div id="all">
+        영어 단어 연습
+        <div id="start_buttons">
+            <button class="btn-2" onclick="location.href='english.html'">시작하기</button>
+            <button class="btn-2" onclick="record();">기록보기</button>
+        </div>
     </div>
 </body>
 </html>
