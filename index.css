@@ -1,3 +1,15 @@
 body{
   background-color:azure;
 }
+#all{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#start_buttons{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+}
