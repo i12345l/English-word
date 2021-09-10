@@ -2,13 +2,19 @@ body{
   background-color:azure;
   margin:0;
 }
+
 #all{
   height: 100vh;
   display: grid;
   justify-content: center;
   align-content: center;
-  text-align: center;
 }
+
+#title_img{
+  display: grid;
+  justify-content: center;
+}
+
 @media(min-width: 450px){
   #start_buttons{
     display: grid;
@@ -38,6 +44,7 @@ button {
   padding: 0.5em 2em;
   position: relative;
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 button::before,
