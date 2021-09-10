@@ -9,10 +9,56 @@ body{
   align-content: center;
   text-align: center;
 }
+@media(min-width: 450px){
+  #start_buttons{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+}
 
-#start_buttons{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 5px;
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 0.5em 2em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #2ecc71;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #f5f5f5;
+}
+
+.btn-2::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+
+.btn-2:hover:after {
+  width: 100%;
 }
